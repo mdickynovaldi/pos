@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/ui/mode-toogle";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
+          </li>
+          <li>
+            Change Mode <ModeToggle />
           </li>
         </ol>
 
